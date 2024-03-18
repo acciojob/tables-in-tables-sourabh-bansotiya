@@ -7,35 +7,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+   
       <!-- Your code here -->
-		<table border = "1">
-		<table border = "1">
-			<tr>
-				<th colspan = "2">Nested Table 2</th>
-			</tr>
-			<tr>
-				<td>Column 1</td>
-				<td>Column 2</td>
-			</tr>
-			<tr>
-				<td>abc</td>
-				<td>def</td>
-			</tr>
-		</table>
-	
-		<table border = "1">
-			<tr>
-				<th colspan = "2">Nested Table 3</th>
-			</tr>
+	  <div id="tabMain">
 
-			<tr>
-				<td>Nested Table</td>
-			<td>Demo Continued</td>
-			</tr>
-		</table>
-
-		<table border = "1">
+		   <div id=tabIn1>
+		<table id="tab1" border = "1">
 			<tr>
 				<th>Nested Table 1</td>
 			</tr>
@@ -45,8 +22,39 @@
 				<li>List item</li></td>
 			</tr>
 		</table>
+		  </div>
+		  
+		<div id="tabIn2">
+		<table id="tab2" border = "1">
+			<tr>
+				<th  colspan="2">Nested Table 2</th>
+			</tr>
+			<tr>
+				<td >Column 1</td>
+				<td >Column 2</td>
+			</tr>
+			<tr>
+				<td>abc</td>
+				<td>def</td>
+			</tr>
+		</table>
+		</div>
 
-        <table border ="1"> 
+		  <div id="tabIn3">
+		<table id="tab3" border = "1">
+			<tr>
+				<th colspan = "2">Nested Table 3</th>
+			</tr>
+
+			<tr>
+				<td>Nested Table</td>
+			<td>Demo Continued</td>
+			</tr>
+		</table>
+		  </div>
+		 
+			  <div id="tabIn4">
+        <table id="tab4" border ="1"> 
 		<tr>
 			<th>Nested Table 4</th>
 		</tr>
@@ -54,8 +62,8 @@
 				<td style= "color: white">HTML</td>
 			</tr>
 		</table>
-		
-    </table>
+				  </div>
 	</table>
+	  </div>
   </body>
 </html>
